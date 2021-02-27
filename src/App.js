@@ -1,12 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
+import Header from './component/Header/Header';
+import Shop from './component/Shop/Shop';
 
 function App() {
  
   return (
-    <div className="App">
-   
+    <div>
+   <Header></Header>
+   <Shop></Shop>
     </div>
   );
 }
